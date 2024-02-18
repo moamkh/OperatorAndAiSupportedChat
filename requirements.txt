@@ -1,10 +1,14 @@
 # Django Base requirements 5.0.0
-
 django
 djangorestframework
+# swagger docs
 django-rest-swagger
-whitenoise
-django-cors-headers
 drf-yasg
+
+django-cors-headers
+whitenoise
 setuptools
 python-dotenv
+
+# Asgi deployment using daphne
+daphne
